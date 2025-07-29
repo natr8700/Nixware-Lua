@@ -1039,48 +1039,7 @@ Setup()
 
 local phrases =
 {
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
-    "discord: @samka8700",
-    "discord server: https://discord.gg/aron",
-    "telegram: @daniel8721",
+	"hi"
 }
 
 local counter = 0
@@ -1293,7 +1252,7 @@ local function Watermark()
     local ss = render.screen_size()
     local time = os.date("%H:%M:%S")
     local level = engine.get_level_name()
-    local text = ("[ Nixware.cc ] dev dc | samka8700 | %s | %s |"):format(get_user_name(), time, (level == "<empty>" and "" or level))
+    local text = ("[ Nixware.cc ]  | %s | %s |"):format(get_user_name(), time, (level == "<empty>" and "" or level))
     local size = render.calc_text_size(text, font)
 
     render.rect_filled(vec2_t(ss.x - 5 - size.x - 20, 5), vec2_t(ss.x - 5, 5 + size.y + 10), COLOR, 5)
